@@ -18,6 +18,5 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
 
-      - name: Echo go version
-        run: go version
-
+      - name: Test code
+        run: go test ./...
