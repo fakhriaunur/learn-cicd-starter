@@ -35,7 +35,7 @@ func TestGetAPIKey(t *testing.T) {
 			name:        "Authorization header with lowercase key",
 			headers:     map[string]string{"authorization": "ApiKey validAPIKey"},
 			expectedKey: "validAPIKey",
-			expectError: true,
+			expectError: false,
 		},
 	}
 
