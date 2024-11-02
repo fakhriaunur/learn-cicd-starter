@@ -39,3 +39,9 @@ jobs:
       
       - name: Test the format
         run: test -z $(go fmt ./...)
+      
+      - name: Install staticcheck
+        uses: dominikh/staticcheck-action@v1
+        
+      - name: Lint the code
+        run: staticcheck
