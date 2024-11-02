@@ -48,6 +48,102 @@
           "store_path": "/nix/store/mi0ybwsm6pmxzv9hsm6bcbqaq1pkf8wh-go-1.23.1"
         }
       }
+    },
+    "google-cloud-sdk@latest": {
+      "last_modified": "2024-10-13T23:44:06Z",
+      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#google-cloud-sdk",
+      "source": "devbox-search",
+      "version": "494.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mif16c9nafdcqgkys5h3959pkclw6lv3-google-cloud-sdk-494.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mif16c9nafdcqgkys5h3959pkclw6lv3-google-cloud-sdk-494.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dk9p4ham0xddx7bl8k4a4n0jwfkr54ky-google-cloud-sdk-494.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dk9p4ham0xddx7bl8k4a4n0jwfkr54ky-google-cloud-sdk-494.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x1jn7qbnjzm0mvg08ml239zz5gaf2wpb-google-cloud-sdk-494.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/x1jn7qbnjzm0mvg08ml239zz5gaf2wpb-google-cloud-sdk-494.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7nl2a2araiaig0ic9xkf8sphb7nvszyz-google-cloud-sdk-494.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7nl2a2araiaig0ic9xkf8sphb7nvszyz-google-cloud-sdk-494.0.0"
+        }
+      }
+    },
+    "turso-cli@latest": {
+      "last_modified": "2024-10-13T23:44:06Z",
+      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#turso-cli",
+      "source": "devbox-search",
+      "version": "0.97.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3izlk915rffka084dyiy745pgwq7iv1h-turso-cli-0.97.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3izlk915rffka084dyiy745pgwq7iv1h-turso-cli-0.97.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mnh7j5r5m403b1xcwf2hx4wmvwigycxb-turso-cli-0.97.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mnh7j5r5m403b1xcwf2hx4wmvwigycxb-turso-cli-0.97.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ad0sa1zgbr1h0753w98yh10p2kfqajqz-turso-cli-0.97.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ad0sa1zgbr1h0753w98yh10p2kfqajqz-turso-cli-0.97.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/spd4swnamcpkb0d6ddgfgn4css8614h4-turso-cli-0.97.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/spd4swnamcpkb0d6ddgfgn4css8614h4-turso-cli-0.97.2"
+        }
+      }
     }
   }
 }

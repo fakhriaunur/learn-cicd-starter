@@ -1,5 +1,9 @@
 {
-  "packages": ["go@1.23.1"],
+  "packages": [
+    "go@1.23.1",
+    "turso-cli@latest",
+    "google-cloud-sdk@latest"
+  ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
